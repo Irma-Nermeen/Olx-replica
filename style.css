@@ -1,0 +1,284 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navbar{
+background-color: rgb(241, 245, 248);
+width: 100%;
+height: 120px;
+
+display: flex;
+position: relative;
+flex-wrap: wrap;
+
+}
+.navbar:hover{
+    cursor: pointer;
+}
+img{
+    padding-top: 15px;
+}
+.navitems{
+list-style-type:none;   
+display: inline-flex; 
+position: absolute; top: 5px; left: 20px;
+
+}
+
+li{
+    padding: 0px 0px 0px 20px;
+}
+li:hover{
+    color:rgb(67, 67, 218) ;
+    
+
+}
+
+.location{
+    background-image: url(https://cdn3.iconfinder.com/data/icons/whatsapp-5/512/147_Search_Research_Basic_Ui-512.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-y:8px ;
+    width: 25%;
+    padding:14px 14px 14px 28px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid black;
+    position: absolute; top:60px ; left: 1%;
+
+
+
+}
+input{
+    width: 50%;
+    padding:14px 14px 14px 28px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-position-x:right ;
+    
+position: absolute; top: 60px;left: 28%;
+     background-image: url(https://www.nicepng.com/png/detail/363-3630378_google-web-search-icon-search-icon-website.png);
+    background-size: 51px;
+    background-repeat: no-repeat;
+    background-position-y:center
+}
+input[type=search]:focus {
+    border: 1px solid aqua;
+    outline: none;
+  }
+.location:focus{
+    border: 1px solid aqua;
+}
+
+.input:focus{
+    border: 1px solid aqua;
+
+}
+#login{
+    text-decoration: none;
+    padding: 14px;
+    padding-bottom: 1px;
+color: black;
+font-weight: bolder;
+font-size: 20px;
+position: absolute; top: 60px; right: 13%;
+border-bottom: 2px solid black;
+}
+
+
+#login:hover{
+border-bottom: none;}
+.sellbutton{
+    width: 10%;
+font-size: 20px;
+border: 5px solid;
+border-color:  aqua aqua   rgb(110, 110, 218)  yellow ;
+border-radius: 28px;
+font-weight: bold;
+position: absolute; top: 60px; right: 2px;
+
+}
+@media screen and (max-width: 700px) {
+}
+
+
+/* ist container work complete */
+
+.select2{
+    width: 15%;
+height: 18px;
+font-weight: bolder;
+font-size: 17px;
+ border: 0px ;
+ display: inline-flex;
+ flex-wrap: wrap;
+
+
+}
+.select2:hover{
+    cursor: pointer;
+
+
+}
+.categories{
+    display: inline-flex;
+    list-style-type:none;
+
+}
+.li2:hover{
+    color:rgb(80, 182, 182);
+    cursor: pointer;
+
+}
+/* 2nd container work complete */
+
+
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,
+.card8,.card9,.card10,.card11,.card12,.card13,.card14{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 47%;
+    border-radius: 5px;
+    
+    
+  }
+  .card1{
+      position: absolute; top: 32%; left: 2%;
+  }
+  .card2{
+      position: absolute; top: 32%;  right: 2%;
+  }
+  .card3{
+      position: absolute;top: 98%;left: 2%;
+  }
+  .card4{
+    position: absolute; top: 98%;  right: 2%;
+
+  }
+  .card5{
+    position: absolute;top: 165%;left: 2%;
+}
+.card6{
+  position: absolute; top: 165%;  right: 2%;
+
+}
+.card7{
+    position: absolute; top: 230%; left: 2%;
+}
+.card8{
+    position: absolute; top: 230%;  right: 2%;
+}
+.card9{
+    position: absolute;top: 295%;left: 2%;
+}
+.card10{
+  position: absolute; top: 295%;  right: 2%;
+}
+.card11{
+  position: absolute;top: 360%;left: 2%;
+}
+.card12{
+position: absolute; top: 360%;  right: 2%;
+
+}
+.card13{
+  position: absolute; top: 425%; left: 2%;
+}
+.card14{
+  position: absolute; top: 425%;  right: 2%;
+}
+
+/* .backbutton{
+display: none;    display: inline-flex;
+   align-items: center;
+position: fixed;  top: 85%;
+left: 45%;} */ 
+.backbutton{
+    position: sticky; top: 0;
+    z-index: 2;
+}
+  
+  .imgcard {
+    border-radius: 5px 5px 0 0;
+    
+}
+  
+  .container {
+    padding: 2px 16px;
+  }
+  h5{
+      color: gray;
+  }
+
+.bottom-nav-bar{
+    position: absolute; top: 490%; left: 2%;
+    /* width: 968px; */
+    display: inline-flex;
+    border: 1px solid black;
+    font-size: 10px;
+    height: 100px;
+
+ }
+ #main {
+     
+    position: absolute; top: 490%;  right: 2%;
+
+    width: 96%;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    display: inline-flex;
+    background-color: rgb(241, 245, 248);
+
+  }
+  
+  #main div:nth-of-type(1) {flex-grow: 1;}
+  #main div:nth-of-type(2) {flex-grow: 1;}
+  #main div:nth-of-type(3) {flex-grow: 1;}
+  #main div:nth-of-type(4) {flex-grow: 1;}
+  #main div:nth-of-type(5) {flex-grow: 3;}
+
+  #bottom-nav-icon{
+    list-style-type: none;
+}
+
+
+#bottom-nav-icon>i.fa {
+    color: rgb(137, 159, 160);
+margin-right: 2%;
+    cursor: pointer;
+    border-radius: 60px;
+    border: 2px solid   rgb(137, 159, 160);
+    padding: 0.5em 0.6em;}
+
+    #bottom-nav-icon2{
+        list-style-type:none;   
+        display: inline-flex;
+         
+    }
+
+
+    .bottom-nav-li{
+        list-style-type: none;
+        margin-left: -55%;
+        font-size: 13px;
+        color: rgb(137, 159, 160);
+        
+    }
+    .bottom-nav-li:hover{
+        cursor: pointer;
+    color: rgb(17, 34, 6);
+    }
+    #main h2{
+font-size: 14px;    }
+.last{
+    position: absolute; top: 519%;  right: 1.8%;
+     width: 96%;
+    height: 50px;
+    background-color: #002f34;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+span{
+    color: white;
+    float: right;
+}
